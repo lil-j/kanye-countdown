@@ -5,7 +5,7 @@ class Counter extends React.Component {
     constructor(props) {
         super(props);
         // Get today's date and time
-        var countDownDate = new Date("Oct 24, 2019 19:00:00").getTime();
+        var countDownDate = new Date("Oct 24, 2019 19:00:00 PST").getTime();
         var timeZoneOffset = new Date().getTimezoneOffset() - (countDownDate);
         var now = new Date().getTime();
         // Find the distance between now and the count down date
@@ -37,12 +37,10 @@ class Counter extends React.Component {
     }
     tick() {
         // Get today's date and time
-        var countDownDate = new Date("Oct 24, 2019 19:00:00").getTime();
-
-        var timeZoneOffset = new Date().getTimezoneOffset() - (countDownDate);
-        var now = new Date().getTime();
+        var countDownDate = new Date("Oct 25, 2019 20:00:00 PST").getTime();
+        var now = new Date();
         // Find the distance between now and the count down date
-        var distance = countDownDate - now - timeZoneOffset;
+        var distance = countDownDate - now;
         if (distance < 0) {
             this.setState({
                 date: 'ALBUM *SHOULD* BE OUT!'
