@@ -1,17 +1,10 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## KANYE COUNTDOWN
+This is just a quick project I made in anticipation of Kanye West's upcoming album. Made with ReactJS. Fonts and styling selected to match Kanye's previous websites and media. The website also uses a live ticker to show the amount of hours, minutes, and seconds until the album,  accounting for timezones.
+Update: It dropped! :)
 
-## Available Scripts
+## Screenshot
 
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### KANYE COUNTDOWN
-
-This is just a quick project I made in anticipation of Kanye West's upcoming album. Made with ReactJS.
+![Screenshot](https://i.imgur.com/tJ56LvO.png)
+note screenshot was taken after release of the album.
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
